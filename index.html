@@ -1,0 +1,63 @@
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Black Card Apps Webpage</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+ <section class = "header">
+        <nav>
+            <a href="index.html"><img src="images/log.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="roadmap.html">ROADMAP</a></li>
+                    <li><a href="Tokenomics.docx">TOKENOMICS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+            
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>The Most Exclusive NFT Club</h1>
+        
+    </div>
+
+        <ul class = "class1">
+        <li>Club Card Rewards</li>
+        <li>Otherworldly Perks</li>
+        <li>Shopify Integration</li>
+        <li>Consistent Utility Airdrops</li>
+        <li>and Much More</li>
+        </ul>
+
+        <a href="about.html" class="hero-btn">Learn More</a>
+
+
+    
+        
+
+
+
+    </section>
+
+<!------js for menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
